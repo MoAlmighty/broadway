@@ -1,0 +1,21 @@
+html {
+  text-align: center;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: White;
+}
+
+.header {
+  height: 297px;
+  background-image: url(../images/background.png);
+}
+
+.header p {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: White;
+}

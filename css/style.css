@@ -1,12 +1,26 @@
 html {
   text-align: center;
+  font-family: Helvetica;
 }
 
 h1 {
-  font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: White;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
 }
 
 .header {
@@ -14,8 +28,27 @@ h1 {
   background-image: url(../images/background.png);
 }
 
-.header p {
-  font-family: Helvetica;
+.header a,
+.foot a {
+  font-weight: bold;
   font-size: 18px;
   color: White;
+}
+
+.divider {
+  background-image: url(../images/background.png);
+}
+
+.divider h3 {
+  color: White;
+}
+
+.foot {
+  text-align: left;
+  background-image: url(../images/background.png);
+}
+
+.foot p {
+  font-size: 11px;
+  color: white;
 }
